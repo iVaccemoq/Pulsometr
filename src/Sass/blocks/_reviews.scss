@@ -1,0 +1,61 @@
+.reviews{
+    padding-bottom: 71px;
+    &__wrapper{
+        display: flex;
+        margin-top: 70px;
+        align-items: flex-start;
+        margin-bottom: 100px;
+        &_bottom{
+            margin-bottom: 0;
+        }
+        &_top{
+            margin-top: 0;
+        }
+    }
+    &__img {
+        margin-right: 62px;
+    }
+    &__text{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -700";
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__subtext{
+        color: #646464;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 19px;
+    }
+    &__descr{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 24px;
+    }
+    &__subdescr{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 24px;
+    }
+    &__thx{
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 300;
+        
+    }
+    &__column{
+        max-width: 650px;
+    }
+    .title__center{
+        margin-bottom: 10px;
+    }
+
+
+}
